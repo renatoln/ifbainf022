@@ -1,3 +1,7 @@
+/**
+ *
+ * @author Enoque
+ */
 class Pessoa {
 
     public Pessoa(String nome, String email) {
@@ -14,6 +18,15 @@ class Pessoa {
         }
 
         return "";
+    }
+
+    public void set(String property, String value) {
+
+        if( property.equals("nome") ) {
+             this.nome = value;
+        } else if ( property.equals("email") ) {
+            this.email = value;
+        }
     }
 
     private String nome;
