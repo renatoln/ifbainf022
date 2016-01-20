@@ -1,11 +1,8 @@
-//alunos INF022 2015.2
+//novo arquivo Aluno de INF022
 
-class Aluno() {
+class AlunoINF022{
 	void IniciarCAMILA(){
 	
 	}
 
-	void iniciarEnoque() { }
-
-	void iniciarAmilton() {}
 }
