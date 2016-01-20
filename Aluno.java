@@ -2,5 +2,5 @@
 
 class AlunoINF022{
 
-
+	void iniciarAmilton() {}
 }
