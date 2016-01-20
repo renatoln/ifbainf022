@@ -9,4 +9,8 @@ class AlunoINF022{
 	void iniciarCAMILA(){
 	
 	}
+
+    	void iniciarLeticia() {
+
+	}
 }
