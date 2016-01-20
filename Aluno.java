@@ -3,4 +3,5 @@
 class Aluno() {
 
 	void iniciarEnoque() { }
+	void iniciarLeticia() { }
 }
