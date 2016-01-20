@@ -1,16 +1,9 @@
-//novo arquivo Aluno de INF022
-
-class AlunoINF022{
-
-	void iniciarAmilton() {
-
+public class Aluno {
+	String nome;
+	public Aluno(String nome) {
+		this.nome = nome;
 	}
-
-	void iniciarCAMILA(){
-	
-	}
-
-    	void iniciarLeticia() {
-
+	public void iniciarJoaoVitor(){
+		System.Out.println("OK!");
 	}
 }
