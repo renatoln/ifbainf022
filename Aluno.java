@@ -6,5 +6,7 @@ class AlunoINF022 {
 
 	void IniciarCAMILA() { }
 
+	void iniciarAmilton() { }
+
 	void iniciarEnoque() { }
 }
