@@ -8,9 +8,9 @@ class AlunoINF022 {
 
 	void iniciarLeticia() { }
 
+    void iniciarEnoque() { }
+
+	void IniciarVeronica(){ }
+
 	void IniciarCAMILA() { }
-
-	void iniciarAmilton() { }
-
-	void iniciarEnoque() { }
 }
