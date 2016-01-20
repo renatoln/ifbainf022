@@ -1,6 +1,8 @@
 //alunos INF022 2015.2
 
-class AlunoAmilton(){
+class Aluno() {
 
-
+	void iniciarEnoque() { }
 }
+
+	void iniciarAmilton() {}
