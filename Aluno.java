@@ -2,5 +2,11 @@
 
 class AlunoINF022{
 
-	void iniciarAmilton() {}
+	void iniciarAmilton() {
+
+	}
+
+	void iniciarCAMILA(){
+	
+	}
 }
