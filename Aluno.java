@@ -3,6 +3,6 @@
 class Aluno() {
 
 	void iniciarEnoque() { }
-}
 
 	void iniciarAmilton() {}
+}
