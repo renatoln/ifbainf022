@@ -1,9 +1,26 @@
-public class Aluno {
-	String nome;
-	public Aluno(String nome) {
-		this.nome = nome;
-	}
-	public void iniciarJoaoVitor(){
-		System.Out.println("OK!");
-	}
+//novo arquivo Aluno de INF022
+
+class AlunoINF022 {
+
+	void iniciarFelipe(){}
+
+	void iniciarAmilton() {}
+
+    void iniciarLeticia() { }
+	
+	void iniciarAmilton() { }
+
+    void iniciarLeticia() { }
+
+	void IniciarCAMILA() { }
+
+	void iniciarAmilton() { }
+
+	void iniciarEnoque() { }
+
+	void IniciarVeronica(){ }
+	
+	public void iniciarJoaoVitor(){}
 }
+
+
