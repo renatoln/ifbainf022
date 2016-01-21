@@ -2,6 +2,7 @@
 
 class AlunoINF022 {
 
+
 	void iniciarFelipe(){}
 
 	void iniciarAmilton() {}
