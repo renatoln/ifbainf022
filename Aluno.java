@@ -1,6 +1,6 @@
-class AlunoINF022 {
+class Aluno {
 
-	void iniciarFelipe() { }
+	void iniciarFelipe(){}
 
 	void iniciarAmilton() {}
 
@@ -10,7 +10,7 @@ class AlunoINF022 {
 
 	void IniciarVeronica(){ }
 	
-	public void iniciarJoaoVitor(){}
+	void iniciarJoaoVitor(){}
 
 	void IniciarCAMILA() { }
 }
