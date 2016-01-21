@@ -7,10 +7,17 @@ class AlunoINF022 {
 	void iniciarAmilton() {}
 
         void iniciarLeticia() { }
+	void iniciarAmilton() { }
+
+    	void iniciarLeticia() { }
+
 
 	void IniciarCAMILA() { }
 
 	void iniciarAmilton() { }
 
 	void iniciarEnoque() { }
+
+	void IniciarVeronica(){ }
 }
+
