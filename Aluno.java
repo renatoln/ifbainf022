@@ -1,24 +1,18 @@
-//novo arquivo Aluno de INF022
+// novo arquivo Aluno de INF022
 
 class AlunoINF022 {
 
-
 	void iniciarFelipe(){}
 
-	void iniciarAmilton() {}
-
-        void iniciarLeticia() { }
-	void iniciarAmilton() { }
-
-    	void iniciarLeticia() { }
-
-
-	void IniciarCAMILA() { }
+	void iniciarFelipe() { }
 
 	void iniciarAmilton() { }
 
-	void iniciarEnoque() { }
+	void iniciarLeticia() { }
+
+        void iniciarEnoque() { }
 
 	void IniciarVeronica(){ }
-}
 
+	void IniciarCAMILA() { }
+}
