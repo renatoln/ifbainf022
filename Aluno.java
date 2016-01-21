@@ -4,11 +4,9 @@ class AlunoINF022 {
 
 	void iniciarFelipe(){}
 
+	void iniciarAmilton() {}
 
-	void iniciarAmilton() {
-
-    void iniciarLeticia() { }
-
+        void iniciarLeticia() { }
 
 	void IniciarCAMILA() { }
 
