@@ -14,3 +14,6 @@ class Eliakin(object):
     @property
     def idade(self):
         return self._idade
+
+    def falar(self):
+        print('oi')
