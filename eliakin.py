@@ -17,3 +17,8 @@ class Eliakin(object):
 
     def falar(self):
         print('oi')
+
+
+if __name__=='__main__':
+    eliakin = Eliakin('Eliakin Costa de Almeida', 23)
+    eliakin.falar()
