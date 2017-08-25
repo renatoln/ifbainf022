@@ -1,13 +1,13 @@
-class Pessoa{
+public class Pessoa{
 
-	int id;
-	String nome[2];
+	private int idade;
+        private	String nome;
 
-	int getIdade(){
-		return id;
+	public int getIdade(){
+		return idade;
 	}
 	
-	String getString(){
+	public String getString(){
 		return nome;
 	}
 }
