@@ -1,0 +1,13 @@
+class Pessoa{
+
+	int id;
+	String nome[2];
+
+	int getIdade(){
+		return id;
+	}
+	
+	String getString(){
+		return nome;
+	}
+}
