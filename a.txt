@@ -1,13 +1,26 @@
 class Pessoa{
 
-	int id;
-	String nome[2];
+	private int id;
+	private String[2] nomes;
 
-	int getIdade(){
-		return id;
+	public Pessoa(int id, String nome){
+		this.setId(id);
+		this.nomes = new String[nome];
+	}
+
+	public void setId(int id){
+		this.id = id;
+	}
+
+	public int getId(){
+		return this.id;
 	}
 	
-	String getString(){
-		return nome;
+	public void setNome(int id){
+		this.id = id;
+	}
+	
+	public String getNome(){
+		return this.nome;
 	}
 }
