@@ -12,6 +12,11 @@ public class Pessoa{
 		printf(teste);
 
 	}
+	public String setRenato(String teste){
+		printf(teste);
+
+	}
+
 	public String getNome(){
 		return nome;
     }
@@ -49,8 +54,11 @@ public class Pessoa{
 		nome = t;
 	}
 
+	public Pessoa(){
+		Pessoa pessoa = new Pessoa('Renan');
+	}
+
 	public void getGabriel(){
 		return 'GABRIEL';
 	}
-
 }
