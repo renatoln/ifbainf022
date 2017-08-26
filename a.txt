@@ -1,7 +1,7 @@
 public class Pessoa{
 
 	private int idade;
-        private	String nome;
+    private	String nome;
 
 	public int getIdade(){
 		return idade;
@@ -14,10 +14,8 @@ public class Pessoa{
 	}
 	public String getNome(){
 		return nome;
-        }
-	private int id; // blablabla
-	private String nome;
-
+    }
+	
 	void setIdade(int id) {
 		this.id = id;
 	}
@@ -50,4 +48,9 @@ public class Pessoa{
 	String setString(String t){
 		nome = t;
 	}
+
+	public void getGabriel(){
+		return 'GABRIEL';
+	}
+
 }
