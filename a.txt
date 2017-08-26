@@ -8,10 +8,15 @@ public class Pessoa{
 	}
 	
 
+	public String setGustavo(String teste){
+		printf(teste);
+
+	}
 	public String setRenato(String teste){
 		printf(teste);
 
 	}
+
 	public String getNome(){
 		return nome;
         }
