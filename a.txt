@@ -1,7 +1,15 @@
 class Pessoa{
 
 	private int id;
-	private String[2] nomes;
+	private String nome;
+
+	void setIdade(int id) {
+		this.id = id;
+	}
+
+	void setString(String nome) {
+		this.nome = nome;
+	}
 
 	public Pessoa(int id, String nome){
 		this.setId(id);
@@ -22,5 +30,9 @@ class Pessoa{
 	
 	public String getNome(){
 		return this.nome;
+	}
+
+	String setString(String t){
+		nome = t;
 	}
 }
