@@ -1,7 +1,15 @@
 class Pessoa{
 
 	int id;
-	String nome[2];
+	String nome;
+
+	void setIdade(int id) {
+		this.id = id;
+	}
+
+	void setString(String nome) {
+		this.nome = nome;
+	}
 
 	int getIdade(){
 		return id;
