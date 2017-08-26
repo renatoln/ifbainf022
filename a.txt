@@ -61,4 +61,9 @@ public class Pessoa{
 	public void getGabriel(){
 		return 'GABRIEL';
 	}
+
+        public void setAllan()
+	{
+          nome = "allan";
+	}
 }
