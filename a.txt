@@ -9,5 +9,40 @@ public class Pessoa{
 	
 	public String getNome(){
 		return nome;
+        }
+	private int id; // blablabla
+	private String nome;
+
+	void setIdade(int id) {
+		this.id = id;
+	}
+
+	void setString(String nome) {
+		this.nome = nome;
+	}
+
+	public Pessoa(int id, String nome){
+		this.setId(id);
+		this.nomes = new String[nome];
+	}
+
+	public void setId(int id){
+		this.id = id;
+	}
+
+	public int getId(){
+		return this.id;
+	}
+	
+	public void setNome(int id){
+		this.id = id;
+	}
+	
+	public String getNome(){
+		return this.nome;
+	}
+
+	String setString(String t){
+		nome = t;
 	}
 }
