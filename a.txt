@@ -50,4 +50,8 @@ public class Pessoa{
 	String setString(String t){
 		nome = t;
 	}
+
+	public Pessoa(){
+		Pessoa pessoa = new Pessoa('Renan');
+	}
 }
