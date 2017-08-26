@@ -10,4 +10,8 @@ class Pessoa{
 	String getString(){
 		return nome;
 	}
+
+	String setString(String t){
+		nome = t;
+	}
 }
