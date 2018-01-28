@@ -1,0 +1,27 @@
+<div data-role="page" id="sendMessage">    
+  <div class="statusBar">
+    <div style="display:inline-block; width:10%; margin:0"><a href="#mypanel"><img width="100%" src="img/btnMenu.png"></img></a></div>
+	<div style="font-size:1.7em; text-align:center; display:inline-block; width:80%; text-align:center">Enviar Mensagem</div>
+  </div>
+	<form>
+	  <div id="content">
+	    <div> <span><h1>Destinatario</h1></span> </div>
+	    <div id="divSelecaoDest" class="DivCenter">
+	        <select name="cars">
+			    <option value="0">Selecione</option>
+				<option value="1">Todos os Professores</option>
+				<option value="2">Todos os Meus Alunos</option>
+				<option value="3">Toda a Comunidade IFBA</option>
+				<option value="4">Alunos da Disciplina Topicos Avancados.</option>
+            </select>
+  
+	    </div>
+	   <div class="TextBox">
+	      <textarea cols="40" rows="8" name="textarea" id="textarea" placeholder="Digite a Mensagem"></textarea>
+	   </div>
+	   <div class="DivCenter">
+	      <a id="btnEnviar" data-role="button" data-transition="fade" data-inline="true" style="width:50%"> <span> Enviar </span> </a>
+	   </div>
+	 </div>
+	</form>
+</div>
