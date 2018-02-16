@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="36dp"
+        android:text="Title"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        app:layout_parallaxFactor="0.6"
+        />
+
+    <ScrollView
+        app:layout_parallaxFactor="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content" />
+    </ScrollView>
+
+    <CheckBox
+        app:layout_parallaxFactor="0.9"
+        android:id="@+id/cb_concordo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:text="chebox"
+        android:textColor="@android:color/white" />
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Emile</string>
+    <string name="logo">LOGO</string>
+    <string name="copyright">Copyright 2017</string>
+    <string name="gsort">GSORT</string>
+
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="esqueci_senha">Esqueci a Senha</string>
+
+    <string name="sobre_emile">
+        O Emile dispõe de um conjuto de funcionalidades para comunicação acadêmica.
+        Novas funcionalidades estão em desenvolvimento e
+        serão liberadas em breve nas próximas versões.O Emile dispõe de um conjuto de
+        funcionalidades para comunicação acadêmica.
+        Novas funcionalidades estão em desenvolvimento e
+        serão liberadas em breve nas próximas versões.
+    </string>
+
+    <string name="nav_sair">Sair</string>
+
+    <string name="key_map">AIzaSyDwN6jpwM6r8X9Gz_6SMY0S9B37V2cTXBU</string>
+
+
+
+    <string name="slide1">Slide1</string>
+    <string name="slide1_descricao">Slide1 Descricao</string>
+    <string name="slide_4_checkbox_error">Slide 4 Erro</string>
+
+
+</resources>

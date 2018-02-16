@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_notificacao"
+            android:title="Notificações"
+            android:icon="@drawable/ic_bell_grey600_24dp"
+            />
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="Perfil"
+            android:icon="@drawable/ic_account_circle_grey600_24dp"
+            />
+
+        <item
+            android:id="@+id/nav_grupos"
+            android:title="Grupos"
+            android:icon="@drawable/ic_account_multiple_grey600_24dp"
+            />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:title="Sobre"
+            android:icon="@drawable/ic_information_grey600_24dp"
+            />
+
+        <item android:title="Outros">
+            <menu android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/ic_phone_grey600_24dp"
+                    android:id="@+id/nav_contato"
+                    android:title="Fale Conosco" />
+                <item
+                    android:icon="@drawable/ic_map_marker_grey600_24dp"
+                    android:id="@+id/nav_encontre_nos"
+                    android:title="Encontre-nos" />
+
+            </menu>
+        </item>
+
+    </group>
+
+
+
+
+</menu>

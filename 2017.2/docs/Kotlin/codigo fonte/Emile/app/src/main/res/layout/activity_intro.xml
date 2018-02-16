@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_intro"
+    android:padding="@dimen/intro_padding_principal_activity"
+    >
+
+    <ImageView
+        android:id="@+id/intro_logo"
+        android:layout_width="@dimen/intro_logo_size"
+        android:layout_height="@dimen/intro_logo_size"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/emile_icone" />
+
+    <ImageView
+        android:id="@+id/intro_gsort"
+        android:layout_width="@dimen/intro_gsort_width"
+        android:layout_height="@dimen/intro_gsort_heigth"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/intro_logo"
+        android:layout_toStartOf="@+id/intro_logo"
+        android:contentDescription="@string/gsort"
+        app:srcCompat="@drawable/gsort" android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/intro_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/intro_gsort"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/copyright"
+        android:textColor="@color/white"
+        android:textSize="@dimen/intro_copyright_text"
+        android:textStyle="bold" />
+
+</RelativeLayout>
