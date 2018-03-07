@@ -78,27 +78,58 @@ function loadPage(url) {
 function init() {
 
     // Load first page into container
-    loadPage("Login.html");
+	window.location.href = "Login.html";
 };
+// function submitLogIn() {
+	// alert("Submitting: " + $('#username').val() + $('#password').val());
+	// var username = $('#username').val();
+	// var password = $('#password').val();
+	// $.ajax({
+		// type: "POST",
+		// url: "http://emileweb.pythonanywhere.com/login/",
+		// data:{"login":username,"password":password},
+		// success: function(data) {
+			// if (data) {
+				   // alert(data);
+				// }
+				// else {
+					// alert('Successfully not posted.');
+				// }
+			// }
+		// });
 
-// referente ao menu lateral 
-/**
-$(document).on( "pagecreate", "#divMenuLateral", function() {
-    $( document ).on( "swipeleft swiperight", "#divMenuLateral", function( e ) {
-        // We check if there is no open panel on the page because otherwise
-        // a swipe to close the left panel would also open the right panel (and v.v.).
-        // We do this by checking the data that the framework stores on the page element (panel: open).
-        if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
-            if ( e.type === "swipeleft" ) {
-                $( "#right-panel" ).panel( "open" );
-            } else if ( e.type === "swiperight" ) {
-                $( "#left-panel" ).panel( "open" );
-            }
-        }
-    });
-});
-**/
+// }
+
+
 $( document ).ready(function() {
     $( "#mypanel" ).panel().enhanceWithin();
+	
+  /*  $("#submit").click(function(){
+		var user = $('#username').val();
+		var pass = $('#password').val();
+	*/
+//$("#submit").click(function(){
+$("#submit").click(function(){
+	var user = $('#username').val();
+	var pass = $('#password').val();
+	$.ajax({
+        type: "POST",
+        url: "http://emileweb.pythonanywhere.com/login/",
+        headers: {
+            'Authorization': "Basic bWFub2VsOnU1UDV5N1Uz "
+        },
+       // crossDomain: true,
+        data: {login: user, password: pass},
+        //dataType: 'json',
+        success: function(responseData, status, xhr) {
+            console.log(responseData);
+        },
+        error: function(request, status, error) {
+            console.log(request.responseText);
+        }
+    });
+
+ });
+ 	window.location.href = "Login.html";
+
 });
-		
