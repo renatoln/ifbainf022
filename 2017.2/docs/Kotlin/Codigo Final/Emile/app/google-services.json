@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "596644462990",
+    "firebase_url": "https://ifba-7c59b.firebaseio.com",
+    "project_id": "ifba-7c59b",
+    "storage_bucket": "ifba-7c59b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596644462990:android:959b826c3b776f49",
+        "android_client_info": {
+          "package_name": "br.edu.ifba.emile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596644462990-mmhsnap7v30l8dcriktkhsvmvsm4hvvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ifba.emile",
+            "certificate_hash": "65dcc8753d39297da3a861ac5631f5fb0e4c4e12"
+          }
+        },
+        {
+          "client_id": "596644462990-2vq45e77i13db0m0i2r48rl2cupvam5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARNclDYgRGkUOQW1FZjESWj9AkX1Bhhag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596644462990-2vq45e77i13db0m0i2r48rl2cupvam5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
