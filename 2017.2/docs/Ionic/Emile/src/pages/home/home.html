@@ -1,0 +1,46 @@
+<ion-header>
+    <!--<ion-navbar>-->
+   <ion-toolbar primary> 
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>
+        Mural de Mensagens
+      </ion-title>
+    <!--</ion-navbar>-->
+    </ion-toolbar>
+  </ion-header>
+  <ion-content padding id="page2" style="background-color:#FFFFFF;">
+   
+    <!--<button ion-button secondary menuToggle>Menu</button>-->
+    <ion-card id="muralDeMensagens_card21" [hidden]=muralDeMensagens_card21 *ngFor="let mensagem of lista">
+        <ion-card-header>
+            Prof:{{mensagem.nomeRemetente}}
+          </ion-card-header>
+          <ion-card-content>
+              Mensagem: 
+              {{mensagem.textoMensagem}}
+          </ion-card-content>
+          <ion-item>
+              <ion-label>Data</ion-label>
+              <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]=mensagem.dataEnvioMensagem></ion-datetime>
+          </ion-item>
+     
+    </ion-card>
+
+    <ion-card id="muralDeMensagens_card22" [hidden]=muralDeMensagens_card22 *ngFor="let mensagem of lista">
+        <ion-card-header>
+            Titulo: {{mensagem.titulo}}
+          </ion-card-header>
+          <ion-card-content>
+              Mensagem Enviada:  
+              {{mensagem.texto}}
+          </ion-card-content>
+          <ion-item>
+              <ion-label>Data</ion-label>
+              <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]=mensagem.data></ion-datetime>
+          </ion-item>
+     
+    </ion-card>
+    
+  </ion-content>
