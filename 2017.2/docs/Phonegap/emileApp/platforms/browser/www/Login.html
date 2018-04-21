@@ -1,48 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-       <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
-       <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>  -->
-	   <!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  -->
-		
-	    <link rel="stylesheet" href="jquery\jquery.mobile-1.4.5\jquery.mobile-1.4.5.min.css" /> 
+  <head>		
+	  <link rel="stylesheet" href="jquery\jquery.mobile-1.4.5\jquery.mobile-1.4.5.min.css" /> 
 		<link rel="stylesheet" href="css\index.css" />
-        <script src="jquery\jquery-1.11.1.min.js"></script>
-        <script src="jquery\jquery.mobile-1.4.5\jquery.mobile-1.4.5.min.js"></script>  
-      
+		<script src="jquery\jquery-1.11.1.min.js"></script>
+		<script src="jquery\jquery.mobile-1.4.5\jquery.mobile-1.4.5.min.js"></script>  
+		<script src="js\index.js"></script>
+		<script src="js\login.js"></script>
+
 	  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-	  
-	  <script type="text/javascript" charset="utf-8">
-//*********************************************************
-// Espere o Cordova Carregar
-//*********************************************************
-// document.addEventListener("deviceready", onDeviceReady, false);
-//function onDeviceReady() {
-//$("#content").html("Hello, World! Demo JQuery Mobile com PhoneGap 2!");
-//} -->
-</script>
+
+	  <script type="text/javascript" charset="utf-8"></script>
   </head> 
    <body>
-    <form>
-	  <div id="content">
+
+	<div data-role="page" id="login">
+
+	    <div id="DivTopo"></div> 
+		<div id="content">	
 	    <div id="divImagem" class="DivCenter">
 	      <figure>
-	        <img id="imgUser" width="100px" src="img\logo.png"/>
+	        <img id="imgUser" width="40%" src="img/logo.png"/>
 	      </figure>
-	    </div>
-	   <div class="TextBox">
-	   <input id="txtLogin" type="text" placeholder="email ou login">
+		</div>
+
+		<div style="margin-top: 40px">
+		   <div class="TextBox">
+		   <input id="username" type="text"  placeholder="email ou login">
+		   </div>
+		   <div class="TextBox">
+		   <input type="password" name="password" id="password" value="" autocomplete="off" placeholder="Senha" >
+		   </div>
+		</div>
+	   <div style="margin-top: 10px">
+		   <div class="DivCenter">
+		   <button id="submit" data-transition="fade" data-inline="true" data-enhanced="true" style="width:50%; background-color:#448AFF"><span> Entrar </span> </button>
+		   <a id="btnRecuperarSenha" href="RecuperacaoSenha.html" data-role="button" data-transition="fade" data-inline="true" data-enhanced="true" style="width:50%; background-color:#448AFF"> <span> Esqueci minha Senha </span> </a>
+		   </div>
 	   </div>
-	   <div class="TextBox">
-	   <input id="txtSenha" type="text" placeholder="Senha" >
 	   </div>
-	   <div class="DivCenter">
-	   <a href="ListaMensagem.html" data-role="button" data-transition="fade" data-inline="true" style="width:50%">Entrar</a>
-	   </div>
-	   <div class="DivCenter">
-	    <a id="btnRecuperarSenha" href="RecuperacaoSenha.html" data-role="button" data-transition="fade" data-inline="true" style="width:50%"> <span> Esqueci minha Senha </span> </a>
-	   </div>
-	   </div>
-	</form>
-  </body>
+	</div>
+	
+   </body>
 </html>

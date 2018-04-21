@@ -1,28 +1,41 @@
 
+$(document).ready(function () {
+    $("#submit").click(function () {
+        var user = $('#username').val();
+        var pass = $('#password').val();
+        $.ajax({
+            type: "GET",
+            url: "http://renatoln.pythonanywhere.com/usuarios?email=" + user + "&password=" + pass,
+            success: function (responseData, status, xhr) {
 
+                validado = responseData.length > 0 ? true : false;
 
-$( document ).ready(function() {
-	$("#submit").click(function(){
-	var user = $('#username').val();
-	var pass = $('#password').val();
-	$.ajax({
-        type: "POST",
-        url: "http://emileweb.pythonanywhere.com/login/",
-        headers: {
-            'Authorization': "Basic bWFub2VsOnU1UDV5N1Uz "
-        },
-       // crossDomain: true,
-        data: {login: user, password: pass},
-        //dataType: 'json',
-        success: function(responseData, status, xhr) {
-            console.log(responseData);
-			window.location.href = "ListaMensagem2.html";
-        },
-        error: function(request, status, error) {
-            console.log("erro ao logar");
-        }
+                if (validado) {
+
+                    if (typeof (Storage) !== "undefined") {
+                        localStorage.IsProfessor = false;
+                        localStorage.idUsuarioLogado = responseData[0].id;
+                    	if (responseData[0].tipo == 1){
+					        localStorage.IsProfessor = true;
+					    }
+                    } 
+                    
+				
+                    else {
+                        // Sorry! No Web Storage support..
+                    }
+                    window.location.href = "index.html";
+
+                }
+                else {
+                    alert("login ou senha incorreto");
+                }
+            },
+            error: function (request, status, error) {
+                console.log("erro ao logar");
+            }
+        });
+
     });
-
- });
 
 });
