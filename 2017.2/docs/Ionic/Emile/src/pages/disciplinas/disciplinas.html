@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Disciplinas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="page2" style="background-color:#FFFFFF;">
+  <div *ngIf="muralDeDisciplinas1">
+    <!-- <ion-card id="muralDeDisciplinas1" [hidden]=muralDeDisciplinas1 *ngFor="let disciplina of listaDisciplinas"> -->
+        <ion-card id="muralDeDisciplinas1" *ngFor="let disciplina of listaDisciplinas">
+        <ion-card-header>
+            Disciplina: {{disciplina.disciplina.nome}}
+          </ion-card-header>
+          <ion-card-content>
+              Código: {{disciplina.disciplina.codigo}}
+          </ion-card-content>     
+      
+    </ion-card>
+  </div>
+  <div *ngIf="muralDeDisciplinas2">
+    <!-- <ion-card id="muralDeDisciplinas2" [hidden]=muralDeDisciplinas2 *ngFor="let disciplina of listaDisciplinas"> -->
+        <ion-card id="muralDeDisciplinas2" *ngFor="let disciplina of listaDisciplinas">
+      <ion-card-header>
+        Disciplina: {{disciplina.nome}}
+        </ion-card-header>
+        <ion-card-content>
+            Código: {{disciplina.codigo}}
+        </ion-card-content>     
+    
+    </ion-card>
+  </div>
+</ion-content>
